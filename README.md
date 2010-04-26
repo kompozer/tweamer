@@ -3,7 +3,7 @@ Twitter Streaming API  + Node.js + WebSockets Demo
 
 Requirements
 --------------------------------
- * node.js http://nodejs.org/ (tested on v0.1.90)
+ * node.js http://nodejs.org/ (tested on v0.1.90 and v0.1.92)
  * Google Chrome Browser (for WebSockets)
 
 Libraries used 
