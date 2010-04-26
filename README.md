@@ -13,8 +13,8 @@ Libraries used
 
 Usage
 --------------------------------
- * Checkout this demo some where inside your webserver htdocs folder. 
- * Navigate via terminal to YOUR_CHECKOUT_PATH/server 
+ * Checkout this demo some where inside your webserver htdocs folder: git clone http://github.com/kompozer/tweamer.git
+ * Navigate via terminal to YOUR_CHECKOUT_PATH/tweamer/server 
  * Start the server: node tweeamer.js
  * Navigate with Google Chrome to the location of the index.html file
  * Enjoy
