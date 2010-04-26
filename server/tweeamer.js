@@ -2,9 +2,14 @@ var sys = require("sys"),
     ws = require("./ws"), // WebSocket 
     TwitterNode = require('./twitter-node').TwitterNode,
 	port = 8080, 
-    username = '',
-    password = '',
+    username = '', // Twitter username, you need to set this
+    password = '', // Twitter password, you need to set this
     keywords = ['#fail'];
+
+if (!username || !password) {
+    sys.puts("Twitter username and password not set, needed for authorisation.");
+    throw "twitter authorisation needed";
+}
 
 /**
  * Twitter stream init
