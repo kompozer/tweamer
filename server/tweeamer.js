@@ -2,8 +2,8 @@ var sys = require("sys"),
     ws = require("./ws"), // WebSocket 
     TwitterNode = require('./twitter-node').TwitterNode,
 	port = 8080, 
-    username = 'explainthistag',
-    password = 'nydFQMjpD7zkof-R',
+    username = '',
+    password = '',
     keywords = ['#fail'];
 
 /**
